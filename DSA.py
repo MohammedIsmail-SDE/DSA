@@ -22,6 +22,7 @@
 #         self.importance = importance
 #         self.subordinates = subordinates
 
+from typing import List
 
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
