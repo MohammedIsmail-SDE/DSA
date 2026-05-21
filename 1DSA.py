@@ -1,7 +1,13 @@
-# 1Q.write a program that will convert celsius value to fahrenheit 
-cell_faharn = int(input("enter clesius :"))
+# 1Q. write a program that will convert celsius value to fahrenheit 
+# cell_faharn = int(input("enter clesius :"))
+# faharn_temp = 1.8*(cell_faharn)
+# result = 32+faharn_temp
+# print("faharn_temp :-",result)
 
-faharn_temp = 1.8*(cell_faharn)
-result = 32+faharn_temp
+#2Q.user will input(2numbers). write a program to swap the numbers 
 
-print("faharn_temp :-",result)
+a = int(input("enter num:")) 
+b = int(input("enter num:"))
+a,b = b,a
+print (a)
+print (b)
