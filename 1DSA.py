@@ -13,3 +13,8 @@
 # print (b)
 
 #3Q
+nums = [4,2,5,7]
+
+nums(len)= 0,1,2,3
+nums(len)=0,2,1,3 
+print (nums)
