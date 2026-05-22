@@ -6,8 +6,10 @@
 
 #2Q.user will input(2numbers). write a program to swap the numbers 
 
-a = int(input("enter num:")) 
-b = int(input("enter num:"))
-a,b = b,a
-print (a)
-print (b)
+# a = int(input("enter num:")) 
+# b = int(input("enter num:"))
+# a,b = b,a
+# print (a)
+# print (b)
+
+#3Q
