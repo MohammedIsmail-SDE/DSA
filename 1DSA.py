@@ -13,8 +13,12 @@
 # print (b)
 
 #3Q
-nums = [4,2,5,7]
+# nums = [4,2,5,7]
 
-nums(len)= 0,1,2,3,4
-nums(len)=0,2,1,3,4 
-print (nums)
+# nums(len)= 0,1,2,3,4
+# nums(len)=0,2,1,3,4 
+# print (nums)
+#3Q. Complete the function printNumber which takes an integer input from the user and prints it on the screen.
+
+number = int(input("enter number :"))
+print("enter number is ",number)
