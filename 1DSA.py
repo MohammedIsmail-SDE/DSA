@@ -20,5 +20,8 @@
 # print (nums)
 #3Q. Complete the function printNumber which takes an integer input from the user and prints it on the screen.
 
-number = int(input("enter number :"))
-print("enter number is ",number)
+# number = int(input("enter number :"))
+# print("enter number is ",number)
+class Solution:
+    def mergeArrays(self, nums1, nums2):
+        print
