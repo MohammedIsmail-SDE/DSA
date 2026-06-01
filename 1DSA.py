@@ -50,5 +50,9 @@
 #             res.append(nums2[j])
 #             j += 1
 #         return res
-import pyttsx3
-pyttsx3.speak("h")
+# import pyttsx3
+# pyttsx3.speak("h")
+name = "john smith"
+age = 20
+is_new = True
+print (name,age,is_new)
