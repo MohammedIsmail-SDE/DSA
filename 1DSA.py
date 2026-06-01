@@ -53,4 +53,5 @@
 # import pyttsx3
 # pyttsx3.speak("h")
 name = input ("what is your name ")
-print ("Hi",name)
+colour = input ("what is your favourate colour")
+print (name,"likes",colour)
