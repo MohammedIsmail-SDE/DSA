@@ -53,5 +53,5 @@
 # import pyttsx3
 # pyttsx3.speak("h")
 name = input ("what is your name ")
-colour = input ("what is your favourate colour")
+colour = input ("what is your favourate colour ")
 print (name,"likes",colour)
