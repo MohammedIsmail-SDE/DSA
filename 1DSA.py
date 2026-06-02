@@ -67,8 +67,8 @@
 #otherwise if it's a cold day wear warm clothes 
 #otherwise 
 # it's a lovely day 
-is_hot = input("is the wether hot :")
-is_cold = input("is the wether cold :")
+is_hot = False
+is_cold = True
 
 if is_hot :
     print ("it's a hot day")
