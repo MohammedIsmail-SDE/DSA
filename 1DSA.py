@@ -79,10 +79,12 @@ price_of_house = 1000000
 buyer_have_a_good_credit = False
 
 if buyer_have_a_good_credit :
-    print("your down payment is :",0.1*price_of_house)
+    down_payment = 0.1*price_of_house
 
 else :
-     print("your down payment is :",0.2*price_of_house)
+     down_payment = 0.2*price_of_house
+
+print(f"Down payment is :{down_payment}")
      
 
    
