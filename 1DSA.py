@@ -67,14 +67,22 @@
 #otherwise if it's a cold day wear warm clothes 
 #otherwise 
 # it's a lovely day 
-is_hot = False
-is_cold = False
 
-if is_hot :
-    print ("it's a hot day")
-    print ("drink plenty of water")
-elif is_cold :
-    print ("it's a cold day")
-    print(" wear warm clothes")
+#price of house is 1m$
+# if buyer have a good credit 
+#they need to put down 10%
+#otherwise 
+#they need to put down 20%
+#print the down payment  
+
+price_of_house = 1000000
+buyer_have_a_good_credit = True
+
+if buyer_have_a_good_credit :
+    print("your down payment is :",0.1*price_of_house)
+
 else :
-    print("it's a lovely day ")
+     print("your down payment is :",0.2*price_of_house)
+     
+
+   
