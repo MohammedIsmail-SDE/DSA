@@ -54,7 +54,7 @@
 # pyttsx3.speak("h")
 user = int(input("please enter weight in pounds : "))
 kg = user
-float = 0.4
+float = 0.453
 fun = (user*float)
 
 print ("kg is ",fun)
