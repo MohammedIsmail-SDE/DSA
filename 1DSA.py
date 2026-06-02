@@ -68,7 +68,7 @@
 #otherwise 
 # it's a lovely day 
 is_hot = False
-is_cold = True
+is_cold = False
 
 if is_hot :
     print ("it's a hot day")
