@@ -55,7 +55,26 @@
 # weight_lbs = input("please enter weight in pounds : ")
 # weight_kg = int(weight_lbs)*0.45
 # print ("kg is ",weight_kg)
-frist = input("enter your frist name :")
-last = input ("enter your last name :")
-full_name = f'{frist} [{last}] is a coder'
-print(full_name)
+# frist = input("enter your frist name :")
+# last = input ("enter your last name :")
+# full_name = f'{frist} [{last}] is a coder'
+# print(full_name)
+# X =5 
+# X =
+# print (X)
+
+#if it's hot it's a hot day drink plenty of water 
+#otherwise if it's a cold day wear warm clothes 
+#otherwise 
+# it's a lovely day 
+is_hot = input("is the wether hot :")
+is_cold = input("is the wether cold :")
+
+if is_hot :
+    print ("it's a hot day")
+    print ("drink plenty of water")
+elif is_cold :
+    print ("it's a cold day")
+    print(" wear warm clothes")
+else :
+    print("it's a lovely day ")
