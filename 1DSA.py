@@ -76,7 +76,7 @@
 #print the down payment  
 
 price_of_house = 1000000
-buyer_have_a_good_credit = True
+buyer_have_a_good_credit = False
 
 if buyer_have_a_good_credit :
     print("your down payment is :",0.1*price_of_house)
