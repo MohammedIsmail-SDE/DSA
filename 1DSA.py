@@ -108,7 +108,7 @@
 # else :
 #     print("Hi",name)
 num = int (input ( "please enter weight : "))
-units = input("this weight is in (L)bs or (k)g :")
+units = input("This weight is in (L)bs or (k)g :")
 
 if units.upper() == "L":
     converted = round(num *0.45,3)
