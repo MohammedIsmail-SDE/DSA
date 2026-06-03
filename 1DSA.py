@@ -86,27 +86,27 @@
 
 # print(f"Down payment is :${down_payment}")
 
-# has_high_income = True
-# has_goood_credit = False
+has_high_income = True
+has_goood_credit = False
 
-# if has_high_income or has_goood_credit:
-#     print("eligible for loan")
+if has_high_income or has_goood_credit:
+    print("eligible for loan")
 
-# temperature = 40
+temperature = 40
 
-# if temperature == 40 :
-#     print("its a worm day")
-# else :
-#     print ("its a normal day")
-
-name = input("please enter your name :")
-
-if len(name )<3:
-    print ("name must be above than 3 characters")
-elif len(name)>50 :
-    print ("name cannot be more than 50 characters")
+if temperature == 40 :
+    print("its a worm day")
 else :
-    print("Hi",name)
+    print ("its a normal day")
+
+# name = input("please enter your name :")
+
+# if len(name )<3:
+#     print ("name must be above than 3 characters")
+# elif len(name)>50 :
+#     print ("name cannot be more than 50 characters")
+# else :
+#     print("Hi",name)
 # num = int (input ( "please enter weight : "))
 # units = input("this weight is in (L)bs or (k)g :")
 
