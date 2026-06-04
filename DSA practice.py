@@ -2,14 +2,14 @@ start = " car is ready to go "
 stop = "car is stopped"
 game=input (">").lower
 
-while game =="start":
+while game == "start":
     print(start)
-    break
+
 if game == "stop":
      print(stop)
 
 if game == "help ":
-      print ("start - to start a car  ")
+      print ("start - to start a car \n Stop - to stop the car \n quit  - to quit  ")
 
 if game == "quit" :
     print ("Game is over")
