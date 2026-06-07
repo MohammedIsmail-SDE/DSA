@@ -1,8 +1,8 @@
-num_1=[5,2,5,2,2]
+num_1=[1,1,1,1,8]
 
 for x in num_1:
    out_put =''
    for y in range(x):
-      out_put += 'X'
-      print(out_put)
+      out_put ='*'*x
+   print(out_put)
    
