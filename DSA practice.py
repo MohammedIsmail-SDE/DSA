@@ -1,7 +1,7 @@
-num_1=[1,1,1,1,8]
-max = num_1 [0]
+num_1=[1,1,1,24,8]
+num = num_1 [0]
 for number in num_1:
-    if number > max:
-        max =number
+    if number > num :
+        num = number
     
-print(max)
+print(num)
