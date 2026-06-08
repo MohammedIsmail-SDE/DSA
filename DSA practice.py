@@ -10,4 +10,5 @@ num2 = []
 for number in num :
     if number not in num2 :
         num2.append(number)
-        print(num2)
+print(num2)
+
