@@ -7,4 +7,7 @@ emojie = {
 output =" "
 for word in words :
     output += emojie.get(word,word) + " "
-print(output)
+    print(output)
+    break
+else :
+    print ("I don know ")
