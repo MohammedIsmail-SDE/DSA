@@ -6,5 +6,5 @@ emojie = {
 }
 output =" "
 for word in words :f
-    output += emojie.get(word,word) + " "
+output += emojie.get(word,word) + " "
 print(output)
