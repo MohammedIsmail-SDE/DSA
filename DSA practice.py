@@ -5,6 +5,6 @@ emojie = {
     "):":"😥",
 }
 output =" "
-for word in words :f
-output += emojie.get(word,word) + " "
+for word in words :
+    output += emojie.get(word,word) + " "
 print(output)
