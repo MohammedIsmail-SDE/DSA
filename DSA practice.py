@@ -1,10 +1,10 @@
 massage = input(">")
 words = massage.split(' ')
-emojie = {
+emojis = {
     ":)": "😊",
-    "):":"😥",
+    "):":"😥"
 }
 output =" "
 for word in words :
-    output += emojie.get(word,word) + " "
+    output += emojis.get(word , word) + " "
 print(output)
