@@ -5,12 +5,11 @@ def enmoji_Username():
     ":)": "😊",
     ":(": "😢"
             }    
-    output = " "
+    output = ""
     for word in words:
         output += emojis.get(word, word) + " "
+        return output
         
-
+        
 massage = input(">")
-enmoji_Username(massage)
-
-print(massage)  
+print(enmoji_Username(massage))  
