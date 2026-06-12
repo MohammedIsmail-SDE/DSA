@@ -1,8 +1,11 @@
-class Person :
-    def talk(person):
+class Person:
+    def talk(self):
         human = {
-        "hi": "Hello",
-        "how are you":"im fine "
+            "hi": "Hello",
+            "how are you": "im fine "
         }
-    user = input(">")
-    user = talk 
+        user = input(">")
+        return human.get(user, "I don't understand")
+    
+    user =input(">")
+    print(user)
