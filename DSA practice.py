@@ -1,11 +1,9 @@
 class Person:
+    def __init__(self,name):
+        self.name = name
     def talk(self):
-        human = {
-            "hi": "Hello",
-            "how are you": "im fine "
-        }
-        user = input(">")
-        return human.get(user, "I don't understand")
-    
-    user =input(">")
-    print(user)
+        print("talk")
+        
+        
+ismail = Person("moahmmed ismail")
+print(ismail.name)
