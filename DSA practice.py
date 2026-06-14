@@ -10,5 +10,3 @@ class Solution:
     
 solution = Solution()
 print(solution.secondLargestElement(nums))
-
-
