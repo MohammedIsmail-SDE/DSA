@@ -5,5 +5,5 @@ class Person:
         print("talk")
         
         
-ismail = Person("moahmmed ismail")
+ismail = Person("moahmmedismail")
 print(ismail.name)
