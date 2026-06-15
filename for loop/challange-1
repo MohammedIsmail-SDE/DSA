@@ -1,0 +1,7 @@
+import function_1
+
+input_number = input("Please Enter Numbers :-")
+
+numbers = [ int (x) for x in input_number.split()]
+
+print(function_1.max_number(numbers))
