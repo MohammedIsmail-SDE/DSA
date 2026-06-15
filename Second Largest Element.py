@@ -10,4 +10,4 @@ class Solution:
     
     
 solution = Solution 
-print(solution().secondLargestElement(nums))
+print(solution().secondLargestElement(nums) )
