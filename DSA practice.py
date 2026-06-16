@@ -7,7 +7,7 @@ class Solution(object):
 nums = [1,1,2]
 print(Solution.removeDuplicates(nums))
 
-#    while k:
-#             temp = nums.pop()
-#             nums.insert(0, temp)
-#             k -= 1
+while k:
+            temp = nums.pop()
+            nums.insert(0, temp)
+            k -= 1
