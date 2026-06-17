@@ -23,7 +23,7 @@ file = xl.load_workbook('STOCK_18%(1).xlsx')
 sheet = file['Stock Summary']
 
 # Loop through rows starting from row 4
-for row in range(1, sheet.max_row + 1):
+for row in range(3, sheet.max_row + 1):
     sheet.cell(row,4).value = f"=B{row}*C{row}"
 
 file.save('STOCK_18%(1).xlsx')
