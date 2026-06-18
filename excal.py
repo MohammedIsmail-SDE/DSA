@@ -19,4 +19,4 @@ def automate_file(filename):
     file.save(filename)
     
     
-automate_file = ('STOCK_18%(1).xlsx')
+automate_file = ('STOCK_18%(1).xlsx' )
