@@ -1,5 +1,5 @@
 
 class Solution:
-    def (self, nums, k):
+    def rotate(self, nums, k):
         k = k % len(nums)
         nums[:] = nums[-k:] + nums
