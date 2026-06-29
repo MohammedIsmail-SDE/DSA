@@ -8,4 +8,5 @@ def max_number(number):
     for nume in number :
         if nume > max_value :
             max_value = nume 
+            
     return max_value
