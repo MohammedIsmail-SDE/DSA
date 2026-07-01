@@ -41,4 +41,4 @@ while True:
                 print("Game is over")
                 break
         else:
-                print("I don't understand ")
+                print("I don't understand  y")
